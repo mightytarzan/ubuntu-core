@@ -118,7 +118,7 @@ if [ "$DISTRIB" = "oneiric" ]; then
   DISTNUM="11.10"
   core_image="ubuntu-core-$DISTNUM-core-$ARMARCH.tar.gz"
 else
-  core_image="$DISTRIB-core-$ARMARCH.tar.gz"
+  core_image="ubuntu-core-12.04.1-core-armhf.tar.gz"
 fi
 
 core_path="http://cdimage.ubuntu.com/ubuntu-core/releases/$DISTNUM/release"
